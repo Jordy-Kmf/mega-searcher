@@ -1,0 +1,27 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: auto;
+    background-color: #3c9130;
+    border: 1px solid #ffffff9a;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform .25s ease-out;
+    -moz-osx-font-smoothing: greyscale;
+    overflow: hidden;
+}
+
+.card-container:hover {
+    background-color: #54b847;
+    transform: scale(1.05);
+    transition: transform .25s ease-out;
+}
+
+.farmer-name,
+.farmer-email {
+    color: rgb(255, 255, 255);
+}

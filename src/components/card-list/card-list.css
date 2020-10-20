@@ -1,0 +1,23 @@
+.card-list {
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+input[type='search'] {
+    border: none;
+    border-bottom: 2px solid rgb(109, 109, 109);
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px;
+    text-size-adjust: 5px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) .7s;
+}
+
+input[type='search']:focus {
+    outline: none;
+    border-bottom-color: #3c9130;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) .7s;
+}
